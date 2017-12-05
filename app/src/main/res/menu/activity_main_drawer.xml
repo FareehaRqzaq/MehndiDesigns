@@ -3,33 +3,34 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/homeAc"
+            android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/popular_posts"
+            android:title="Popoular posts" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/winning_posts"
+            android:title="Winning posts" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Other">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/other_posts"
+                android:title="Othr posts" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/saved_posts"
+                android:title="Saved posts" />
+        </menu>
+    </item>
+    <item android:title="Upload">
+        <menu>
+            <item
+                android:id="@+id/upload_video"
+                android:title="Upload design video" />
+            <item
+                android:id="@+id/upload_image"
+                android:title="Upload Mehndi design image" />
         </menu>
     </item>
 
